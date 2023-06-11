@@ -20,13 +20,16 @@ Make sure to have all required packages downloaded:
 
 $ pip install -r requirements.txt
 
-1. Create a database in postgres. This can fx. be done using the terminal, using;
+1. Create a database in postgres. In "init_db.py" and "app.py", change "USERNAME" and "PASSWORD" so that it suits you.
 
-psql -U postgres
+2. Run init_db.py.
 
-$ [insert password]
+$ python3 init_db.py
 
-$CREATE DATABASE 
+3. Use flask run to run the website. 
+
+$ flask run
+
 
 ## How to navigate:
 - Use the mouse
