@@ -7,7 +7,17 @@ Due to technical issues, we instead made an applicaton in the correct theme, whe
 
 ## How to run:
 
-Before running the application, a user needs to do several things:
+Before running the application, a user needs to do several things: ::
+
+  # clone the repository
+  $ git clone https://github.com/nanathostrup/DIS_projekt
+  $ cd DIS_projekt 
+
+Make sure to have all required packages downloaded: ::
+  
+  # download all required packages
+  $ pip install -r requirements.txt
+
 1. Create a database in postgres. This can fx. be done using the terminal, using;
 psql -U postgres
 [insert passwors]
