@@ -20,7 +20,7 @@ Make sure to have all required packages downloaded:
 
 $ pip install -r requirements.txt
 
-1. Create a database in postgres. In "init_db.py" and "app.py", change "USERNAME" and "PASSWORD" so that it suits you.
+1. Create a database in postgres. In "init_db.py" and "app.py", change "USERNAME" and "PASSWORD" so that it suits your database.
 
 2. Run init_db.py.
 
