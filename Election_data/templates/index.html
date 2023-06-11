@@ -1,0 +1,12 @@
+{% extends 'base.html' %}
+
+{% block content %}
+    <h1>{% block title %} Candidates {% endblock %}</h1>
+    {% for candidate in candidates %}
+        <div class='candidates'>
+            <b><p class='review'>{{ candidate[3] }}</p></b>
+            <h3>Landsdel: {{ candidate[0] }}, Storkreds: {{ candidate[1] }}, Parti: {{ candidate[2] }}</h3>
+        </div>
+    {% endfor %}
+{% endblock %}
+

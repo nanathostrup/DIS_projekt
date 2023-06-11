@@ -1,0 +1,56 @@
+{% extends 'base.html' %}
+
+{% block content %}
+  <h1>{% block title %} Add a New Candidate {% endblock %}</h1>
+    <form method="post">
+        <p>
+          <label for="LANDSDEL">Landsdel:</label>
+            <input type="text" name="LANDSDEL" 
+              placeholder="LANDSDEL">
+            </input>
+        </p>
+
+        <p>
+            <label for="STORKREDS">Storkreds</label>
+            <input type="text" name="STORKREDS"
+                   placeholder="Choose storkreds">
+            </input>
+        </p>
+
+        <p>
+            <label for="PARTI">Parti</label>
+            <!--<input type="text" name="PARTI" 
+              placeholder="PARTI">
+            </input> -->
+            <select type="text" name="PARTI">
+                <option value="A">A</option>
+                <option value="B">B</option>
+                <option value="C">C</option>
+                <option value="D">D</option>
+                <option value="F">F</option>
+                <option value="I">I</option>
+                <option value="K">K</option>
+                <option value="M">M</option>
+                <option value="O">O</option>
+                <option value="Q">Q</option>
+                <option value="Udenfor parti">Udenfor parti</option>
+                <option value="V">V</option>
+                <option value="Æ">Æ</option>
+                <option value="Ø">Ø</option>
+                <option value="Å">Å</option>
+              </select>
+        </p>
+        <p>
+        <label for="STEMMESEDDELNAVN">Stemmeseddelnavn</label>
+        <br>
+        <textarea name="STEMMESEDDELNAVN"
+                  placeholder="STEMMESEDDELNAVN"
+                  rows="2"
+                  cols="45"
+                  ></textarea>
+        </p>
+        <p>
+          <button type="submit">Submit</button>
+        </p>
+    </form>
+{% endblock %}

@@ -1,0 +1,107 @@
+{% extends 'base.html' %}
+
+{% block content %}
+  <h1>{% block title %} Chosose a Candidate to Update {% endblock %}</h1>
+    <form method="post">
+        <p>
+          <label for="LANDSDEL">Landsdel:</label>
+            <input type="text" name="LANDSDEL" 
+              placeholder="LANDSDEL">
+            </input>
+        </p>
+
+        <p>
+            <label for="STORKREDS">Storkreds</label>
+            <input type="text" name="STORKREDS"
+                   placeholder="Choose storkreds">
+            </input>
+        </p>
+
+        <p>
+            <label for="PARTI">Parti</label>
+            <!--<input type="text" name="PARTI" 
+              placeholder="PARTI">
+            </input> -->
+            <select type="text" name="PARTI">
+                <option value="A">A</option>
+                <option value="B">B</option>
+                <option value="C">C</option>
+                <option value="D">D</option>
+                <option value="F">F</option>
+                <option value="I">I</option>
+                <option value="K">K</option>
+                <option value="M">M</option>
+                <option value="O">O</option>
+                <option value="Q">Q</option>
+                <option value="Udenfor parti">Udenfor parti</option>
+                <option value="V">V</option>
+                <option value="Æ">Æ</option>
+                <option value="Ø">Ø</option>
+                <option value="Å">Å</option>
+              </select>
+        </p>
+        <p>
+        <label for="STEMMESEDDELNAVN">Stemmeseddelnavn</label>
+        <br>
+        <textarea name="STEMMESEDDELNAVN"
+                  placeholder="STEMMESEDDELNAVN"
+                  rows="2"
+                  cols="45"
+                  ></textarea>
+        </p>
+
+
+
+    <h1>Update the Values for the Candidate</h1>
+
+        <p>
+          <label for="LANDSDEL1">Landsdel:</label>
+            <input type="text" name="LANDSDEL1" 
+                placeholder="LANDSDEL TO CHANGE">
+            </input>
+        </p>
+
+        <p>
+            <label for="STORKREDS1">Storkreds</label>
+            <input type="text" name="STORKREDS1"
+                placeholder="Choose storkreds to change">
+            </input>
+        </p>
+
+        <p>
+            <label for="PARTI1">Parti</label>
+            <!--<input type="text" name="PARTI" 
+              placeholder="PARTI">
+            </input> -->
+            <select type="text" name="PARTI1">
+                <option value="A">A</option>
+                <option value="B">B</option>
+                <option value="C">C</option>
+                <option value="D">D</option>
+                <option value="F">F</option>
+                <option value="I">I</option>
+                <option value="K">K</option>
+                <option value="M">M</option>
+                <option value="O">O</option>
+                <option value="Q">Q</option>
+                <option value="Udenfor parti">Udenfor parti</option>
+                <option value="V">V</option>
+                <option value="Æ">Æ</option>
+                <option value="Ø">Ø</option>
+                <option value="Å">Å</option>
+              </select>
+        </p>
+        <p>
+        <label for="STEMMESEDDELNAVN1">Stemmeseddelnavn</label>
+        <br>
+        <textarea name="STEMMESEDDELNAVN1"
+                placeholder="STEMMESEDDELNAVN TO CHANGE"
+                rows="2"
+                cols="45"
+                ></textarea>
+        </p>
+        <p>
+          <button type="submit">Submit</button>
+        </p>
+    </form>
+{% endblock %}
