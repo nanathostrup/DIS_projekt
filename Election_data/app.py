@@ -8,8 +8,8 @@ app.debug = True
 def get_db_connection():
     conn = psycopg2.connect(host='localhost',
                             database='postgres',
-                            user='postgres',
-                            password='RosinToast')
+                            user='USERNAME',
+                            password='PASSWORD')
     return conn
 
 @app.route('/')
