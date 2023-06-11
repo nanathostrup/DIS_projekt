@@ -22,7 +22,7 @@ $ pip install -r requirements.txt
 
 ### run the program as such:
 
-1. Create a database in postgres. In "init_db.py" and "app.py", change "USERNAME" and "PASSWORD" so that it suits your database.
+1. Create a database in postgres called postgres. In "init_db.py" and "app.py", change "USERNAME" and "PASSWORD" so that it suits your database.
 
 2. Run init_db.py.
 
