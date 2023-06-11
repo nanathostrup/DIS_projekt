@@ -4,6 +4,7 @@ This is our DIS_Project :)
 We wanted to make a overview of all candidates from the last folketingsvalg in Denmark in 2022.
 Due to technical issues, we instead made an applicaton in the correct theme, where a person can see a few candidates, add/delete/update their own, or search the database for existing candidates. The application thus lives up to the requirements set fourth by the assignment. 
 
+Included is the ER diagram "ER.png". Had we time to further expand the database we would have followed the "PotentieltER.png".
 
 ## How to run:
 
